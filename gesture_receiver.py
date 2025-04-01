@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import requests
 
-LAPTOP_IP = "192.168.1.100"  # Change this to your laptop's IP
+LAPTOP_IP = "192.168.46.202"  # Change this to your laptop's IP
 FILE_URL = f"http://{LAPTOP_IP}:5000/download"
 
 # Initialize hand tracking
